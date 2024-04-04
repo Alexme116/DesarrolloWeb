@@ -10,7 +10,8 @@
         <h1>Calculadora</h1>
     </div>
     <div class="design">
-        <div class="result" id="result">
+        <div class="result">
+            <span class="result_number" id="result"></span>
         </div>
         <div class="button-container">
             <div class="button" onclick=number(7)>
@@ -36,7 +37,7 @@
             <div class="button" onclick=number(6)>
                 6
             </div>
-            <div class="button">
+            <div class="button" onclick="number('-')">
                 -
             </div>
         </div>
@@ -66,11 +67,23 @@
             </div>
         </div>
     </div>
-    <div>
-        <div class="button_clear" onclick="clear()">C</div>
+    <div class="button-container">
+        <div class="button_clear" onclick="number('C')">
+            C
+        </div>
+        <div class="button" onclick="number('/')">
+            /
+        </div>
+        <div class="button" onclick="number('^')">
+            ^
+        </div>
     </div>
     <div>
         <a class="regresar" href="/index.html">Regresar</a>
+    </div>
+    <div class="center">
+        <h2>Historial</h2>
+        <div id="historial"></div>
     </div>
     <script src="index.js"></script>
 </body>
