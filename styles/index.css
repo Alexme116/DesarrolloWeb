@@ -36,6 +36,11 @@ a {
     display: grid;
     justify-items: center;
 }
+
+.center_text {
+    text-align: center;
+}
+
 .info {
     display: grid;
     width: 50%;
@@ -58,4 +63,19 @@ a {
 
 .subtema {
     margin-top: 100px;
+}
+
+@media (max-width: 800px) {
+    .tags_content{
+        grid-template-columns: 1fr;
+    }
+
+    .container {
+        padding: 0 10% 0 10%;
+    }
+
+    footer {
+        padding-right: 0;
+        justify-content: center;
+    }
 }

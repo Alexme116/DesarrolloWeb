@@ -5,174 +5,212 @@
     <link rel="stylesheet" href="styles/index.css">
     <title>Artículo</title>
 </head>
+
 <body id="top">
     <header>
         <h1>Artículo</h1>
     </header>
+
     <main>
-        <div class="titles">
-            <h2>Tags</h2>
+        <!------------------------------------ TAGS ------------------------------------>
+        <div class="container">
+            <div class="titles">
+                <h2>Tags</h2>
+            </div>
+            <div class="tags_content">
+                <div class="center">
+                    <h4>&lt;html&gt;</h4>
+                    <p class="info">Este tag se utiliza para la creacion de un documento tipo HTML.</p>
+                </div>
+                <div class="center">
+                    <h4>&lt;head&gt;</h4>
+                    <p class="info">Este tag se utiliza para establecer el titulo, estilos, entre otras cosas importantes del DOM.</p>
+                </div>
+                <div class="center">
+                    <h4>&lt;body&gt;</h4>
+                    <p class="info">Este tag se utiliza para encapsular todo lo que va a mostrar la pagina web.</p>
+                </div>
+            </div>
+            <div class="tags_content">
+                <div class="center">
+                    <h4>&lt;title&gt;</h4>
+                    <p class="info">Este tag se utiliza para asignar el titulo del DOM o pagina web.</p>
+                </div>
+                <div class="center">
+                    <h4>&lt;h1&gt; ... &lt;h6&gt;</h4>
+                    <p class="info">Este tag se utiliza para agregar un texto de estilo encabezado decrementando su tamaño dependiendo del numero utilizado despues del h de 1 a 6.</p>
+                </div>
+                <div class="center">
+                    <h4>&lt;p&gt;</h4>
+                    <p class="info">Este tag se utiliza para crear un texto de tipo parrafo.</p>
+                </div>
+            </div>
+            <div class="tags_content">
+                <div class="center">
+                    <h4>&lt;b&gt;</h4>
+                    <p class="info">Este tag se utiliza para poner el texto en <b>negritas.</b></p>
+                </div>
+                <div class="center">
+                    <h4>&lt;br&gt;</h4>
+                    <p class="info">Este tag se utiliza para hacer un salto de linea.</p>
+                </div>
+                <div class="center">
+                    <h4>&lt;hr&gt;</h4>
+                    <p class="info">Este tag se utiliza para crear una linea horizontal del ancho total.</p>
+                </div>
+            </div>
         </div>
-        <div class="tags_content">
-            <div class="center">
-                <h4>&lt;html&gt;</h4>
-                <p class="info">Este tag se utiliza para la creacion de un documento tipo HTML.</p>
-            </div>
-            <div class="center">
-                <h4>&lt;head&gt;</h4>
-                <p class="info">Este tag se utiliza para establecer el titulo, estilos, entre otras cosas importantes del DOM.</p>
-            </div>
-            <div class="center">
-                <h4>&lt;body&gt;</h4>
-                <p class="info">Este tag se utiliza para encapsular todo lo que va a mostrar la pagina web.</p>
-            </div>
-        </div>
-        <div class="tags_content">
-            <div class="center">
-                <h4>&lt;title&gt;</h4>
-                <p class="info">Este tag se utiliza para asignar el titulo del DOM o pagina web.</p>
-            </div>
-            <div class="center">
-                <h4>&lt;h1&gt; ... &lt;h6&gt;</h4>
-                <p class="info">Este tag se utiliza para agregar un texto de estilo encabezado decrementando su tamaño dependiendo del numero utilizado despues del h de 1 a 6.</p>
-            </div>
-            <div class="center">
-                <h4>&lt;p&gt;</h4>
-                <p class="info">Este tag se utiliza para crear un texto de tipo parrafo.</p>
-            </div>
-        </div>
-        <div class="tags_content">
-            <div class="center">
-                <h4>&lt;b&gt;</h4>
-                <p class="info">Este tag se utiliza para poner el texto en <b>negritas.</b></p>
-            </div>
-            <div class="center">
-                <h4>&lt;br&gt;</h4>
-                <p class="info">Este tag se utiliza para hacer un salto de linea.</p>
-            </div>
-            <div class="center">
-                <h4>&lt;hr&gt;</h4>
-                <p class="info">Este tag se utiliza para crear una linea horizontal del ancho total.</p>
-            </div>
-        </div>
-
         <hr color="#ff6600">
 
-        <div class="titles">
-            <h2>Lists</h2>
+        <!------------------------------------ LISTS ------------------------------------>
+        <div class="container">
+            <div class="titles">
+                <h2>Lists</h2>
+            </div>
+            <div class="tags_content">
+                <div class="center">
+                    <h4>Order Lists</h4>
+                    <p class="info">Estas listas utilizan el tag de <b>&lt;ol&gt;</b>para inicializar la lista y <b>&lt;li&gt;</b> para agregar cada elemento a la lista.</p>
+                    <ol>
+                        <li>Ejemplo de lista ordenada</li>
+                    </ol>
+                </div>
+                <div class="center">
+                    <h4>Unordered Lists</h4>
+                    <p class="info">Estas listas utilizan el tag de <b>&lt;ul&gt;</b>para inicializar la lista y <b>&lt;li&gt;</b> para agregar cada elemento a la lista.</p>
+                    <ul>
+                        <li>Ejemplo de lista desordenada</li>
+                    </ul>
+                </div>
+                <div class="center">
+                    <h4>Nested Lists</h4>
+                    <p class="info">Se pueden anidar listas poniendo una lista dentro de otra.</p>
+                    <ul>
+                        <li>Ejemplo de lista anidada</li>
+                        <li>Elemento 2
+                            <ul>
+                                <li>Elemento 2.1</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
-        <div class="tags_content">
-            <div class="center">
-                <h4>Order Lists</h4>
-                <p class="info">Estas listas utilizan el tag de <b>&lt;ol&gt;</b>para inicializar la lista y <b>&lt;li&gt;</b> para agregar cada elemento a la lista.</p>
-                <ol>
-                    <li>Ejemplo de lista ordenada</li>
-                </ol>
-            </div>
-            <div class="center">
-                <h4>Unordered Lists</h4>
-                <p class="info">Estas listas utilizan el tag de <b>&lt;ul&gt;</b>para inicializar la lista y <b>&lt;li&gt;</b> para agregar cada elemento a la lista.</p>
-                <ul>
-                    <li>Ejemplo de lista desordenada</li>
-                </ul>
-            </div>
-            <div class="center">
-                <h4>Nested Lists</h4>
-                <p class="info">Se pueden anidar listas poniendo una lista dentro de otra.</p>
-                <ul>
-                    <li>Ejemplo de lista anidada</li>
-                    <li>Elemento 2
-                        <ul>
-                            <li>Elemento 2.1</li>
-                        </ul>
-                    </li>
-                </ul>
-            </div>
-        </div>
-
         <hr color="#ff6600">
 
-        <div class="titles">
-            <h2>Links</h2>
+        <!------------------------------------ LINKS ------------------------------------>
+        <div class="container">
+            <div class="titles">
+                <h2>Links</h2>
+            </div>
+            <div class="center">
+                <p class="center_text">Los links son creados con el tag de <b>&lt;a&gt;</b> y estos son utilizados para que el usuario haga <a href="https://www.google.com">CLICK</a> sobre ellos y asi redireccionarlos a otra pagina.</p>
+                <p class="center_text">Se deben de utilizar URL's absolutas si se quiere redireccionar a una pagina de otro sitio web como: "https://www.google.com".</p>
+                <p class="center_text">Se deben de utilizar URL's relativas si se quiere redireccionar a una pagina dentro del mismo sitio web como: "index.html".</p>
+                <p class="center_text">Tambien se pueden utilizar las id para trasladarse entre secciones dentro del sitio web por ejemplo: si &lt;body&gt; tiene id="<a href="#top">top</a>" utilizamos la referencia de "#top".</p>
+            </div>
         </div>
-        <div class="center">
-            <p>Los links son creados con el tag de <b>&lt;a&gt;</b> y estos son utilizados para que el usuario haga <a href="https://www.google.com">CLICK</a> sobre ellos y asi redireccionarlos a otra pagina.</p>
-            <p>Se deben de utilizar URL's absolutas si se quiere redireccionar a una pagina de otro sitio web como: "https://www.google.com".</p>
-            <p>Se deben de utilizar URL's relativas si se quiere redireccionar a una pagina dentro del mismo sitio web como: "index.html".</p>
-            <p>Tambien se pueden utilizar las id para trasladarse entre secciones dentro del sitio web por ejemplo: si &lt;body&gt; tiene id="<a href="#top">top</a>" utilizamos la referencia de "#top".</p>
-        </div>
-
         <hr color="#ff6600">
 
-        <div class="titles">
-            <h2>Images</h2>
+        <!------------------------------------ IMAGES ------------------------------------>
+        <div class="container">
+            <div class="titles">
+                <h2>Images</h2>
+            </div>
+            <div class="center">
+                <p class="center_text">Para poder agregar una imagen se debe de utilizar el tag de <b>&lt;img&gt;</b>.</p>
+                <img src="https://images.pagina12.com.ar/styles/focal_3_2_360x240/public/media/articles/74424/pin1_0.jpg?h=9e499333&itok=apqCj1kN" alt="Pinguino">
+                <p class="center_text">El link utilizado igualmente puede ser una URL absoluta si se utiliza una imagen de internet, o una URL relativa si se utiliza una imagen dentro del dispositivo.</p>
+            </div>
         </div>
-        <div class="center">
-            <p>Para poder agregar una imagen se debe de utilizar el tag de <b>&lt;img&gt;</b>.</p>
-            <img src="https://images.pagina12.com.ar/styles/focal_3_2_360x240/public/media/articles/74424/pin1_0.jpg?h=9e499333&itok=apqCj1kN" alt="Pinguino">
-            <p>El link utilizado igualmente puede ser una URL absoluta si se utiliza una imagen de internet, o una URL relativa si se utiliza una imagen dentro del dispositivo.</p>
-        </div>
-
         <hr color="#ff6600">
 
-        <div class="titles">
-            <h2>CSS</h2>
+        <!------------------------------------ CSS ------------------------------------>
+        <div class="container">
+            <div class="titles">
+                <h2>CSS</h2>
+            </div>
+            <div class="center">
+                <p class="center_text">Para poder hacer uso de un archivo CSS se debe de llamar el archivo dentro del tag <b>&lt;head&gt;</b> utilizando el tag <b>&lt;link&gt;</b>.</p>
+                <p class="center_text">Dentro del tag <b>&lt;link&gt;</b> debemos de definir el URL relativo del archivo CSS y asignando la realcion como "stylesheet"</p>
+            </div>
         </div>
-        <div class="center">
-            <p>Para poder hacer uso de un archivo CSS se debe de llamar el archivo dentro del tag <b>&lt;head&gt;</b> utilizando el tag <b>&lt;link&gt;</b>.</p>
-            <p>Dentro del tag <b>&lt;link&gt;</b> debemos de definir el URL relativo del archivo CSS y asignando la realcion como "stylesheet"</p>
-        </div>
-
         <hr color="#ff6600">
 
-        <div class="titles">
-            <h2>JavaScript</h2>
+        <!------------------------------------ JavaScript ------------------------------------>
+        <div class="container">
+            <div class="titles">
+                <h2>JavaScript</h2>
+            </div>
+            <div class="tags_content">
+                <div class="center">
+                    <h4>Declaración de variables</h4>
+                    <p class="info">Los tipos de declaración de variables son: <b>Var, Let, y Const.</b></p>
+                </div>
+                <div class="center">
+                    <h4>Tipos de datos</h4>
+                    <p class="info">Los tipos de datos pueden ser: <b>Undefined, Boolean, Number, String, BigInt, Symbol, Null, Object, y Function.</b></p>
+                </div>
+                <div class="center">
+                    <h4>Bucles</h4>
+                    <p class="info">Los tipos de bucles son: <b>For, While, Do While, For in, y For of.</b></p>
+                </div>
+            </div>
+            <div class="center">
+                <h4>Asignación</h4>
+                <p class="info">Los tipos de asignaciones son: <b>=, +=, -=, *=, /=, %=, y **=.</b></p>
+            </div>
+            <h3 class="center subtema">Declaración de variables</h3>
+            <div class="tags_content">
+                <div class="center">
+                    <h4>Var</h4>
+                    <p class="info">Sirve para declarar una variable.</p>
+                </div>
+                <div class="center">
+                    <h4>Let</h4>
+                    <p class="info">Sirve para declarar una variable local a nivel de bloque.</p>
+                </div>
+                <div class="center">
+                    <h4>Const</h4>
+                    <p class="info">Sirve para declarar una constante, que será una variable con un valor de solo lectura.</p>
+                </div>
+            </div>
         </div>
-        <div class="tags_content">
-            <div class="center">
-                <h4>Declaración de variables</h4>
-                <p class="info">Los tipos de declaración de variables son: <b>Var, Let, y Const.</b></p>
-            </div>
-            <div class="center">
-                <h4>Tipos de datos</h4>
-                <p class="info">Los tipos de datos pueden ser: <b>Undefined, Boolean, Number, String, BigInt, Symbol, Null, Object, y Function.</b></p>
-            </div>
-            <div class="center">
-                <h4>Bucles</h4>
-                <p class="info">Los tipos de bucles son: <b>For, While, Do While, For in, y For of.</b></p>
-            </div>
-        </div>
-        <div class="center">
-            <h4>Asignación</h4>
-            <p class="info">Los tipos de asignaciones son: <b>=, +=, -=, *=, /=, %=, y **=.</b></p>
-        </div>
-        <h3 class="center subtema">Declaración de variables</h3>
-        <div class="tags_content">
-            <div class="center">
-                <h4>Var</h4>
-                <p class="info">Sirve para declarar una variable.</p>
-            </div>
-            <div class="center">
-                <h4>Let</h4>
-                <p class="info">Sirve para declarar una variable local a nivel de bloque.</p>
-            </div>
-            <div class="center">
-                <h4>Const</h4>
-                <p class="info">Sirve para declarar una constante, que será una variable con un valor de solo lectura.</p>
-            </div>
-        </div>
-
         <hr color="#ff6600">
 
-        <div class="titles">
-            <h2>Calculadora</h2>
+        <!------------------------------------ CALCULADORA ------------------------------------>
+        <div class="container">
+            <div class="titles">
+                <h2>Calculadora</h2>
+            </div>
+            <div class="center">
+                <p class="center_text">Para poder hacer uso de la calculadora se debe hace click <a href="calculadora/index.html">aquí</a>.</p>
+            </div>
         </div>
-        <div class="center">
-            <p>Para poder hacer uso de la calculadora se debe hace click <a href="calculadora/index.html">aquí</a>.</p>
+        <hr color="#ff6600">
+
+        <!------------------------------------ REACT ------------------------------------>
+        <div class="container">
+            <div class="titles">
+                <h2>React</h2>
+            </div>
+        </div>
+        <hr color="ff6600">
+
+        <!------------------------------------ POKÉDEX ------------------------------------>
+        <div class="container"></div>
+            <div class="titles">
+                <h2>Pokédex</h2>
+            </div>
+            <div class="center">
+                <p class="center_text">Haga click <a href="https://pokedex-seven-xi.vercel.app/">aquí</a> para ir al Pokédex.</p>
+            </div>
         </div>
     </main>
+
     <footer>
         <p><b>Alejandro Moncada Espinosa - A01638343</b></p>
     </footer>
 </body>
+
 </html>
