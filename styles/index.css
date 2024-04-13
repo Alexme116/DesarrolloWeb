@@ -1,21 +1,44 @@
+@import url('https://fonts.cdnfonts.com/css/br-sonoma');
+
 body {
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    padding: 0;
     background-color: #383838;
 }
 
-header {
-    display: grid;
-    padding: 1%;
-    background-color: #1a1a1a;
+.home {
+    display: flex;
+    height: 100dvh;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(to top, #29C3DC 30%, #081120);
+}
+.home img {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.home .title {
+    position: absolute;
+    margin-top: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
-    justify-content: center;
-    border-bottom: 2px solid #ff6600;
+    font-size: 80px;
+    text-shadow: 0 0 10px rgb(0, 0, 0);
+    padding: 0 10%;
 }
 
-main {
+.about {
+    background-color: #03182b;
     color: white;
+    padding-top: 100px;
+}
+.about h1 {
+    text-align: center;
+    margin-bottom: 60px;
+    font-size: 40px;
 }
 
 footer {
@@ -30,6 +53,10 @@ footer {
 
 a {
     color: #ff6600;
+}
+
+.container {
+    margin: 0 5%;
 }
 
 .center {
@@ -77,5 +104,9 @@ a {
     footer {
         padding-right: 0;
         justify-content: center;
+    }
+
+    .home .title {
+        font-size: 50px;
     }
 }
