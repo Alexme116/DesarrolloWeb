@@ -38,7 +38,7 @@ body {
 .about h1 {
     text-align: center;
     margin-bottom: 60px;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 footer {
@@ -47,6 +47,7 @@ footer {
     color: white;
     justify-content: right;
     border-top: 2px solid #4DC6DC;
+    box-shadow: 0 0 15px 0.1px #00ffd5;
     padding-right: 25px;
 }
 
@@ -56,6 +57,12 @@ a {
 
 .container {
     margin: 0 5%;
+}
+.container .titles {
+    display: grid;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .center {
@@ -74,17 +81,16 @@ a {
     margin-top: -15px;
 }
 
-.titles {
-    display: grid;
-    justify-content: center;
-}
-
 .tags_content {
     display: grid;
     justify-content: center;
     grid-template-columns: repeat(3, minmax(200px, 1fr));
     grid-gap: 1%;
     margin-bottom: 20px;
+}
+.tags_content .center h4 {
+    align-self: flex-end;
+    margin-bottom: 30px;
 }
 
 .subtema {
@@ -106,6 +112,6 @@ a {
     }
 
     .home .title {
-        font-size: 50px;
+        font-size: 60px;
     }
 }
