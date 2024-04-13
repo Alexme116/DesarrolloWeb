@@ -33,7 +33,7 @@ body {
 .about {
     background-color: #03182b;
     color: white;
-    padding-top: 100px;
+    padding: 100px 0 15px 0;
 }
 .about h1 {
     text-align: center;
@@ -46,9 +46,8 @@ footer {
     background-color: #1a1a1a;
     color: white;
     justify-content: right;
-    border-top: 2px solid #ff6600;
+    border-top: 2px solid #4DC6DC;
     padding-right: 25px;
-    margin-top: 10px;
 }
 
 a {
