@@ -1,0 +1,115 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.button {
+    width: 40px;
+    height: 40px;
+    border: solid;
+    border-radius: 5px;
+    border-color: black;
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(71, 71, 71);
+    color: white;
+}
+
+.button-cero {
+    width: 105px;
+    height: 40px;
+    border: solid;
+    border-radius: 5px;
+    border-color: black;
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(206, 102, 17);
+    color: white;
+}
+
+.button_clear {
+    width: 40px;
+    height: 40px;
+    border: solid;
+    border-radius: 5px;
+    border-color: black;
+    display: flex;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(206, 39, 17);
+    color: white;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.button:hover {
+    cursor: pointer;
+    background-color: rgb(126, 126, 126);
+}
+
+.button-cero:hover {
+    cursor: pointer;
+    background-color: rgb(243, 120, 19);
+}
+
+.button_clear:hover {
+    cursor: pointer;
+    background-color: rgb(240, 49, 24);
+}
+
+.design {
+    border: 5px solid black;
+    border-radius: 5px;
+    padding: 15px 0px 0px 15px;
+    background-color: rgb(126, 126, 126);
+    margin-bottom: 10px;
+}
+
+.result {
+    width: 240px;
+    height: 40px;
+    margin-bottom: 20px;
+    border: 5px solid black;
+    border-radius: 5px;
+    background-color: rgb(170, 170, 170);
+}
+
+.result_number {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    text-align: right;
+    display: grid;
+    justify-content: left;
+    padding: 8px 0px 0px 8px;
+}
+
+.regresar {
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
